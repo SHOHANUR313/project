@@ -1,0 +1,362 @@
+@media (min-width: 320px) and (max-width: 575.99px) {
+    /* ===================common css start ====================== */
+    .my_btn {
+        padding: 8px 27px;
+        border-radius: 5px;
+    }
+    /* ===================== common css end ==================== */
+
+    /* =============== navbar start ========================= */
+    .navbar {
+        padding: 15px 0;
+        position: absolute;
+        top: 0;
+        background: aqua;
+    }
+    .navbar .navbar-nav .nav-item .nav-link img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) translateY(5px);
+        top: 60%;
+        opacity: 0;
+        transition: .8s;
+        visibility: hidden;
+        width: 35px;
+    }
+    .navbar .navbar-nav {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px 0;
+    }
+    .navbar .custom_btn {
+        font-size: 15px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .navbar-toggler{
+        border: 0;
+    }
+    .navbar-toggler{
+        color: #d50a51;
+    }
+    .navbar-toggler:focus{
+        outline: 0;
+        box-shadow: none;
+    }
+    /* ================== navbar end ========================== */
+
+    /* ================== banner start ======================= */
+    #banner_part {
+        padding-top: 55px;
+    }
+    #banner_part .banner_text {
+        margin-bottom: 30px;
+    }
+    #banner_part .banner_img img {
+        display: none;
+    }
+    #banner_part .banner_text h1 {
+        font-size: 57px;
+        margin-top: -22px;
+    }
+    #banner_part .banner_text h2 {
+        font-size: 50px;
+    }
+    #banner_part .banner_text p {
+        width: 320px;
+        margin: 15px 0 40px;
+    }
+    /* ================== banner end =================== */
+
+    /* ================== history start =================== */
+    #history_part{
+        background: rgb(0, 255, 128);
+        padding: 0;
+    }
+    #history_part .banner_image img {
+        display: none;
+    }
+    #history_part .container{
+        background: url(../images/history_image.png) no-repeat center / cover;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        position: relative;
+        z-index: 1;
+    }
+    #history_part .container::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.65);
+        z-index: -1;
+    }
+    #history_part .title {
+        margin-bottom: 25px;
+    }
+    #history_part .title h3{
+        color: #fff;
+    }
+    #history_part .title_text p{
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+        text-align: justify;
+        margin-bottom: 0px;
+    }
+    #history_part .title img {
+        display: none;
+    }
+    #history_part .responsive_shape {
+        display: block !important;
+    }
+    #history_part .title {
+        padding: 34px 0 0 35px;
+    }
+    /* ================== history end =================== */
+
+    /* ==================== gift part start ============= */
+    #gift_part .text {
+        padding: 0px;
+    }
+    #gift_part .title {
+        margin-bottom: 15px;
+    }
+    #gift_part .image img {
+        display: none;
+    }
+    #gift_part .text p {
+        line-height: 22px;
+        margin-bottom: 0px;
+        text-align: justify;
+    }
+    .my_btn {
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    .my_btn {
+        font-size: 16px;
+    }
+    .button {
+        margin: 15px 0;
+    }
+    /* ================ gift part end ==================== */
+
+    /* ================ ticket part start ================= */
+    #ticket_part {
+        padding: 0;
+    }
+    #ticket_part .container {
+        background: url(../images/ticket--image.png) no-repeat center / cover;
+        position: relative;
+        z-index: 1;
+    }
+    #ticket_part .container::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.67);
+        z-index: -1;
+    }
+    #ticket_part .image img {
+        display: none;
+    }
+    #ticket_part .title h3 {
+        color: #fff;
+    }
+    #ticket_part .title img {
+        display: none;
+    }
+    #ticket_part .title{
+        position: relative;
+    }
+    #ticket_part .title .slider_shape01{
+        display: block;
+        transform: rotate(90deg) !important;
+        position: absolute;
+        left: 212px;
+        top: 6px;
+    }
+    #ticket_part .title h2 {
+        font-size: 27px;
+        line-height: 28px;
+        margin-top: -5px;
+    }
+    #ticket_part .title {
+        margin-bottom: 24px;
+    }
+    #ticket_part  .title_text p {
+        color: #ffffff;
+        margin-bottom: 0;
+        text-align: justify;
+    }
+    #ticket_part .button {
+        justify-content: start;
+        margin-top: 25px;
+    }
+    #ticket_part .my_btn {
+        font-size: 20px;
+    }
+
+    /* ================ ticket part end ================== */
+
+    /* ================ offer part start ================== */
+    #offers_part {
+        padding: 12px 0;
+    }
+    #offers_part .title {
+        margin-bottom: 15px;
+    }
+    #offers_part .title h3 {
+        font-size: 22px;
+    }
+    #offers_part .title h2 {
+        font-size: 26px;
+    }
+    #offers_part .title_text p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+    #offers_part .music {
+        border-right: 1.5px solid #d50a51;
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.25);
+        box-shadow: 0px 0px 7px -2px rgba(0,0,0,.25);
+    }
+    #offers_part .music:hover {
+        border-right: 1.5px solid #d50a51;
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.25);
+        box-shadow: 0px 0px 7px -2px rgba(0,0,0,.25);
+    }
+    #offers_part .row {
+        row-gap: 30px;
+    }
+    /* ================ offer part end ================== */
+
+    /* ================ capture part start ================== */
+    #capture_part .row .col-lg-4:first-child{
+        order: 2;
+    }
+    #capture_part .row .col-lg-4:nth-child(2){
+        order: 3;
+    }
+    #capture_part .row .col-lg-4:nth-child(3){
+        order: 1;
+    }
+    #capture_part {
+    	padding: 0;
+    }
+    #capture_part .title {
+        margin-bottom: 0;
+    }
+    #capture_part .title h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    #capture_part .title h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    #capture_part .title_text p {
+        margin-bottom: 0px;
+        text-align: justify;
+    }
+    #capture_part .row{
+        row-gap: 30px;
+    }
+    /* ================ capture part end =================== */
+
+    /* ================ counter_part start ================== */
+
+    #counter_part{
+        position: relative;
+        z-index: 1;
+    }
+    #counter_part::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.65);
+        z-index: -1;
+    }
+    #counter_part .main {
+        color: #ffff;
+    }
+    /* ================ counter_part end ================== */
+
+    /* ================ slider_part end ================== */
+    #slider_part .slick-slide img {
+        width: 40px;
+    }
+    #slider_part .text_title h3 {
+        font-size: 16px;
+    }
+    #slider_part .text_title p {
+        font-size: 14px;
+        line-height: 8px;
+    }
+    #slider_part .main_slide .slide {
+        padding: 9px;
+    }
+    #slider_part .text p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+    #slider_part .slider_shape01 {
+        display: block;
+    }
+    #slider_part .main .slider_shape01 {
+        left: 0;
+        top: 0;
+        width: 25px;
+    }
+    #slider_part .main .slider_shape02 {
+        right: 0;
+        bottom: 0;
+        width: 25px;
+    }
+    /* ================ slider_part end ================== */
+
+    /* ================ footer_part start ================ */
+    footer .newsletter .text h3 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    footer .icon_text{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .newsletter .text p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    footer .newsletter {
+        padding: 5px 5px;
+    }
+    footer .location{
+        order: 1;
+    }
+    footer .messege{
+        order: 3;
+    }
+    footer .icon{
+        order: 2;
+    }
+
+    /* ================ footer_part end ================== */
+}
